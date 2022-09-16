@@ -1,0 +1,26 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+
+    buildDebug:
+        name: Debug build
+        runs-on: ubuntu-latest
+
+        steps:
+            -   uses: actions/checkout@v2
+            
+            -   name: enablee
+                run: chmod +x ./gradlew
+
+            -   name: Run debug build
+                run: ./gradlew assembleDebug
+
+            -   name: Upload artifact to GitHub
+                uses: actions/upload-artifact@v2
+                with:
+                    name: app-debug.apk
+#                    path: ./**/*apk
+                    path: app/build/outputs/apk/debug/app-debug.apk
+

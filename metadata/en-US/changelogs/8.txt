@@ -1,0 +1,7 @@
+ - android 10(Q) fix storage content provider bug (requestLegacyExternalStorage)
+
+ - ads_blocker list updated (viglink.com now included in yoyo)
+
+...
+ - android TV menu compatibility (+ w.i.p. samsung Dex)
+ 

@@ -1,0 +1,13 @@
+# new _history Shortcut & Tile
+# add searchEngine: Mojeek Qwant
+
+ - ads_blocker list updated
+
+...
+ - Share content: for mp4/html/mht/xml/svg/eml & any text files.
+ - fix Android 10 & 11 new SAF with optionnal scoped storage in /Download
+ - wip : .eml viewer
+
+...
+ - android TV menu compatibility (+ w.i.p. samsung Dex)
+ 

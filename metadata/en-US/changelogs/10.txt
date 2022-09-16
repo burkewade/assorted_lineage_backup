@@ -1,0 +1,11 @@
+ - new Share content: for html/mht/xml/svg/eml & any text files.
+ 
+ - fix Android 10 & 11 new SAF with optionnal scoped storage in /Download
+ - fix Marshmallow .mht reader
+ - wip : .eml viewer
+
+ - ads_blocker list updated
+
+...
+ - android TV menu compatibility (+ w.i.p. samsung Dex)
+ 

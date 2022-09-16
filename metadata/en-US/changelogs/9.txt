@@ -1,0 +1,7 @@
+ - fix Color white on white for Status & Nav bars (Wikipedia ... Internet_Disconnected...)
+
+ - ads_blocker list updated (viglink.com now included in yoyo)
+
+...
+ - android TV menu compatibility (+ w.i.p. samsung Dex)
+ 
