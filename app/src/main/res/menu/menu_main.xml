@@ -32,7 +32,7 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/menu_search"
-        android:icon="@drawable/ic_search"
+        android:icon="@android:drawable/ic_menu_search"
         android:title="@string/menu_search"
         app:showAsAction="never" />
     <item
