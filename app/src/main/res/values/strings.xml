@@ -45,7 +45,7 @@
     <!-- Menu action: search in page -->
     <string name="menu_search">Find in page</string>
     <!-- Menu action: print -->
-    <string name="menu_print">Exit</string>
+    <string name="menu_print">Close</string>
 
     <string name="tabs_info">\u2936LongClick\u205E\nTabs manager</string>
     <string name="kill_all">kill_all Tabs</string>
