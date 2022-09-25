@@ -513,13 +513,10 @@ public class MainActivity extends WebViewExtActivity implements
                             R.string.menu_desktop_mode : R.string.menu_mobile_mode));
                     desktopMode.setIcon(ContextCompat.getDrawable(this, isDesktop ?
                             R.drawable.ic_desktop : R.drawable.ic_mobile));
+                } else if (itemId == R.id.menu_history) {
+                    startActivity(new Intent(this, HistoryActivity.class));
                 } else if (itemId == R.id.menu_settings) {
                     startActivity(new Intent(this, SettingsActivity.class));
-                } else if (itemId == R.id.menu_tabs) {
-                    Toast toast = Toast.makeText(this,getString(R.string.tabs_info), Toast.LENGTH_LONG);
-                    toast.setGravity(Gravity.BOTTOM| Gravity.END, 0, 0);
-                    toast.show();
-                    tabsManage(menu);
                 }
                 return true;
             });

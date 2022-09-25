@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Browser4</string>
+    <string name="app_name">B4</string>
 
     <!-- Menu action: create new tab -->
     <string name="menu_new_tab">New tab</string>
