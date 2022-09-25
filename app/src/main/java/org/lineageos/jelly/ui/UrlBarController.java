@@ -59,7 +59,7 @@ public class UrlBarController implements View.OnFocusChangeListener {
     public void onPageLoadFinished(Context context, SslCertificate certificate) {
         mLoading = false;
         if (!mUrlBarHasFocus) {
-            updateUrlBarText();
+            //updateUrlBarText();
         }
         updateSecureIconVisibility();
         updateSSLCertificateDialog(context, certificate);
