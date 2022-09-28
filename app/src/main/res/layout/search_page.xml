@@ -19,8 +19,8 @@
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
     android:paddingBottom="4dp"
-    android:paddingEnd="16dp"
-    android:paddingStart="16dp"
+    android:paddingEnd="2dp"
+    android:paddingStart="2dp"
     android:paddingTop="4dp">
 
     <androidx.cardview.widget.CardView
@@ -49,7 +49,7 @@
                 android:maxLines="1"
                 android:nextFocusLeft="@id/search_menu_edit"
                 android:nextFocusUp="@id/search_menu_edit"
-                android:paddingStart="4dp"
+                android:paddingStart="2dp"
                 android:selectAllOnFocus="true"
                 android:textColor="@color/inverted"
                 android:textColorHint="@android:color/darker_gray"

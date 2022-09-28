@@ -18,10 +18,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:paddingBottom="4dp"
-    android:paddingEnd="16dp"
-    android:paddingStart="16dp"
-    android:paddingTop="4dp">
+    android:paddingBottom="2dp"
+    android:paddingEnd="2dp"
+    android:paddingStart="2dp"
+    android:paddingTop="2dp">
 
     <!-- Dummy view to catch focus -->
     <View
@@ -50,7 +50,7 @@
                 android:layout_alignParentEnd="true"
                 android:adjustViewBounds="true"
                 android:background="?selectableItemBackgroundBorderless"
-                android:padding="5dp"
+                android:padding="2dp"
                 android:src="@drawable/ic_menu" />
 
             <ImageButton
@@ -98,7 +98,7 @@
                 android:maxLines="1"
                 android:nextFocusLeft="@id/url_bar"
                 android:nextFocusUp="@id/url_bar"
-                android:paddingStart="4dp"
+                android:paddingStart="2dp"
                 android:popupElevation="2dp"
                 android:popupBackground="@color/primary"
                 android:selectAllOnFocus="true"
