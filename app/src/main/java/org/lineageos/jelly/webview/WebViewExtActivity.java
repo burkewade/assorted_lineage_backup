@@ -35,8 +35,6 @@ public abstract class WebViewExtActivity extends AppCompatActivity {
 
     public abstract void onThemeColorSet(int color);
 
-    public abstract void onFaviconLoaded(Bitmap favicon);
-
     public abstract void onShowCustomView(View view, WebChromeClient.CustomViewCallback callback);
 
     public abstract void onHideCustomView();

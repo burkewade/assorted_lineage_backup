@@ -683,23 +683,6 @@ public class MainActivity extends WebViewExtActivity implements
         }
     }
 
-    public void onFaviconLoaded(Bitmap favicon) {
-        if (favicon == null || favicon.isRecycled()) {
-            return;
-        }
-
-        mUrlIcon = favicon.copy(favicon.getConfig(), true);
-        if (!mHasThemeColorSupport) {
-            //applyThemeColor(UiUtils.getColor(favicon, mWebView.isIncognito()));
-        }
-
-        setFavicon();
-
-        if (!favicon.isRecycled()) {
-            favicon.recycle();
-        }
-    }
-
     private void applyThemeColor(int color) {
         boolean hasValidColor = color != Color.TRANSPARENT;
         mThemeColor = color;
@@ -794,16 +777,6 @@ public class MainActivity extends WebViewExtActivity implements
         mFullScreenCallback.onCustomViewHidden();
         mFullScreenCallback = null;
         mCustomView = null;
-    }
-
-    public void setFavicon() {
-        ImageView mFavicon = (ImageView) findViewById(R.id.favicon);
-        if (mUrlIcon == null || mUrlIcon.isRecycled()) {
-            mFavicon.setVisibility(View.GONE);
-            return;
-        }
-        mFavicon.setVisibility(mIncognito ? View.GONE : View.VISIBLE);
-        mFavicon.setImageBitmap(mUrlIcon);
     }
 
     private void addShortcut(String sTitle , String sUrl) {

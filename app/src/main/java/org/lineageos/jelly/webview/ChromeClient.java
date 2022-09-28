@@ -71,11 +71,6 @@ class ChromeClient extends WebChromeClientCompat {
     }
 
     @Override
-    public void onReceivedIcon(WebView view, Bitmap icon) {
-        mActivity.onFaviconLoaded(icon);
-    }
-
-    @Override
     public boolean onShowFileChooser(WebView view, ValueCallback<Uri[]> path,
                                      FileChooserParams params) {
         mActivity.showFileChooser(path);
