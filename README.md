@@ -1,4 +1,4 @@
-# Jelly Browser
+# Dummy repo for storing lineage images
 
 * Images disabled
 * Javascript disabled
